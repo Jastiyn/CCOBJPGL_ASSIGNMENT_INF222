@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="680.0" style="-fx-background-color: #cf92b9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DrinksController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f871bb" height="76.0" layoutX="-5.0" stroke="#f871bb" strokeType="INSIDE" width="686.0" />
+      <Label layoutX="149.0" layoutY="10.0" prefHeight="57.0" prefWidth="382.0" text="Jastiyn's Penk Drinks" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="143.0" layoutX="-11.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/milkshake.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="179.0" fitWidth="191.0" layoutX="249.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/goodday.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="177.0" fitWidth="179.0" layoutX="523.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/soju.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="145.0" layoutX="120.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/thebar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="122.0" fitWidth="191.0" layoutX="404.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/milktea.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" layoutX="32.0" layoutY="244.0" mnemonicParsing="false" onAction="#showInfo" text="Milkshake" />
+      <Button fx:id="btn2" layoutX="306.0" layoutY="244.0" mnemonicParsing="false" onAction="#showInfo" text="Goodday" />
+      <Button fx:id="btn3" layoutX="592.0" layoutY="244.0" mnemonicParsing="false" onAction="#showInfo" text="Soju" />
+      <Button fx:id="btn4" layoutX="164.0" layoutY="244.0" mnemonicParsing="false" onAction="#showInfo" text="The bar" />
+      <Button fx:id="btn5" layoutX="467.0" layoutY="244.0" mnemonicParsing="false" onAction="#showInfo" text="Milk Tea" />
+   </children>
+</AnchorPane>
